@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5ED0195229FE365E00DDFA3C /* Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED0195229FE365E00DDFA3C /* ProfileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED0195529FE365E00DDFA3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED0195729FE365E00DDFA3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5ED0195929FE365E00DDFA3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5ED0194929FE365E00DDFA3C = {
 			isa = PBXGroup;
 			children = (
-				5ED0195429FE365E00DDFA3C /* Profile */,
+				5ED0195429FE365E00DDFA3C /* ProfileChallenge */,
 				5ED0195329FE365E00DDFA3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		5ED0195329FE365E00DDFA3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ED0195229FE365E00DDFA3C /* Profile.app */,
+				5ED0195229FE365E00DDFA3C /* ProfileChallenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5ED0195429FE365E00DDFA3C /* Profile */ = {
+		5ED0195429FE365E00DDFA3C /* ProfileChallenge */ = {
 			isa = PBXGroup;
 			children = (
 				5ED0195529FE365E00DDFA3C /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				5ED0196029FE366100DDFA3C /* LaunchScreen.storyboard */,
 				5ED0196329FE366100DDFA3C /* Info.plist */,
 			);
-			path = Profile;
+			path = ProfileChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5ED0195129FE365E00DDFA3C /* Profile */ = {
+		5ED0195129FE365E00DDFA3C /* ProfileChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ED0196629FE366100DDFA3C /* Build configuration list for PBXNativeTarget "Profile" */;
+			buildConfigurationList = 5ED0196629FE366100DDFA3C /* Build configuration list for PBXNativeTarget "ProfileChallenge" */;
 			buildPhases = (
 				5ED0194E29FE365E00DDFA3C /* Sources */,
 				5ED0194F29FE365E00DDFA3C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Profile;
+			name = ProfileChallenge;
 			productName = Profile;
-			productReference = 5ED0195229FE365E00DDFA3C /* Profile.app */;
+			productReference = 5ED0195229FE365E00DDFA3C /* ProfileChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5ED0194D29FE365E00DDFA3C /* Build configuration list for PBXProject "Profile" */;
+			buildConfigurationList = 5ED0194D29FE365E00DDFA3C /* Build configuration list for PBXProject "ProfileChallenge" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ED0195129FE365E00DDFA3C /* Profile */,
+				5ED0195129FE365E00DDFA3C /* ProfileChallenge */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Profile/Info.plist;
+				INFOPLIST_FILE = ProfileChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Profile/Info.plist;
+				INFOPLIST_FILE = ProfileChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ED0194D29FE365E00DDFA3C /* Build configuration list for PBXProject "Profile" */ = {
+		5ED0194D29FE365E00DDFA3C /* Build configuration list for PBXProject "ProfileChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5ED0196429FE366100DDFA3C /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ED0196629FE366100DDFA3C /* Build configuration list for PBXNativeTarget "Profile" */ = {
+		5ED0196629FE366100DDFA3C /* Build configuration list for PBXNativeTarget "ProfileChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5ED0196729FE366100DDFA3C /* Debug */,
